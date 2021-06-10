@@ -49,8 +49,6 @@ When running on a headless server, you will need to use `xvfb-run` to launch the
 xvfb-run -a -s "-screen 0 1400x900x24 +extension RANDR" -- python3 main.py
 ```
 
-When running with a discrete VAE, the size of the latent vector is increased to 128 from the 32-dimensional version used for the standard VAE.
-
 ## Authors
 
 * **Sebastian Risi**
